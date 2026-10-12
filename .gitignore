@@ -1,0 +1,6 @@
+build/
+assests/
+nvidia-minth2-deck/
+nvidia-gr00t-partnership/
+.pytest_cache/
+decks/
