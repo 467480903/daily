@@ -1,0 +1,18 @@
+[
+  {
+    "slide": 3,
+    "severity": "info",
+    "type": "sparse_slide",
+    "shape_count": 11,
+    "coverage_pct": 21,
+    "suggestion": "Only ~21% of the slide area is used. Consider a denser pattern, larger evidence block, or a secondary visual anchor."
+  },
+  {
+    "slide": 4,
+    "severity": "info",
+    "type": "sparse_slide",
+    "shape_count": 11,
+    "coverage_pct": 22,
+    "suggestion": "Only ~22% of the slide area is used. Consider a denser pattern, larger evidence block, or a secondary visual anchor."
+  }
+]

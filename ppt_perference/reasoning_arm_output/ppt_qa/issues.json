@@ -1,0 +1,282 @@
+{
+  "slide-01": {
+    "shape-005": {
+      "name": "\u6587\u672c\u6846 11",
+      "text": "\u5e02\u573a\u673a\u4f1a\u8c03\u7814\u62a5\u544a",
+      "bounds_in": {
+        "x": 0.478,
+        "y": 0.499,
+        "w": 10.401,
+        "h": 1.313
+      },
+      "overlap": [
+        {
+          "with": "shape-007",
+          "overlap_inches": 0.121
+        }
+      ]
+    },
+    "shape-007": {
+      "name": "\u6587\u672c\u6846 10",
+      "text": "\u7f16\u53f7\uff1aMY-MPR-00-01\n\u7248\u672c\uff1aA01",
+      "bounds_in": {
+        "x": 10.042,
+        "y": 1.691,
+        "w": 3.292,
+        "h": 0.64
+      },
+      "overlap": [
+        {
+          "with": "shape-005",
+          "overlap_inches": 0.121
+        }
+      ]
+    }
+  },
+  "slide-04": {
+    "shape-002": {
+      "name": "\u6587\u672c\u5360\u4f4d\u7b26 15",
+      "text": "1",
+      "bounds_in": {
+        "x": 12.283,
+        "y": 6.79,
+        "w": 0.572,
+        "h": 0.203
+      },
+      "overflow": {
+        "overflow_inches": 0.14
+      }
+    },
+    "shape-007": {
+      "name": "\u77e9\u5f62 26",
+      "text": "\u5e02\u573a\u673a\u4f1a\u7684\u6838\u5fc3\u5224\u65ad",
+      "bounds_in": {
+        "x": 7.344,
+        "y": 2.417,
+        "w": 3.75,
+        "h": 0.292
+      },
+      "overflow": {
+        "overflow_inches": 0.14
+      }
+    }
+  },
+  "slide-05": {
+    "shape-001": {
+      "name": "\u6587\u672c\u5360\u4f4d\u7b26 2",
+      "text": "2",
+      "bounds_in": {
+        "x": 12.283,
+        "y": 6.79,
+        "w": 0.572,
+        "h": 0.203
+      },
+      "overflow": {
+        "overflow_inches": 0.14
+      }
+    }
+  },
+  "slide-06": {
+    "shape-002": {
+      "name": "\u6587\u672c\u5360\u4f4d\u7b26 2",
+      "text": "3",
+      "bounds_in": {
+        "x": 12.283,
+        "y": 6.79,
+        "w": 0.572,
+        "h": 0.203
+      },
+      "overflow": {
+        "overflow_inches": 0.14
+      }
+    },
+    "shape-006": {
+      "name": "\u77e9\u5f62 70",
+      "text": "\u7ade\u4e89\u7c7b\u522b",
+      "bounds_in": {
+        "x": 0.699,
+        "y": 3.375,
+        "w": 2.042,
+        "h": 0.208
+      },
+      "overflow": {
+        "overflow_inches": 0.135
+      }
+    },
+    "shape-008": {
+      "name": "\u77e9\u5f62 72",
+      "text": "\u5178\u578b\u5e03\u5c40",
+      "bounds_in": {
+        "x": 3.137,
+        "y": 3.375,
+        "w": 3.917,
+        "h": 0.208
+      },
+      "overflow": {
+        "overflow_inches": 0.135
+      }
+    },
+    "shape-010": {
+      "name": "\u77e9\u5f62 74",
+      "text": "\u5bf9\u672c\u9879\u76ee\u7684\u5f71\u54cd",
+      "bounds_in": {
+        "x": 7.512,
+        "y": 3.375,
+        "w": 4.688,
+        "h": 0.208
+      },
+      "overflow": {
+        "overflow_inches": 0.135
+      }
+    }
+  },
+  "slide-07": {
+    "shape-002": {
+      "name": "\u6587\u672c\u5360\u4f4d\u7b26 2",
+      "text": "4",
+      "bounds_in": {
+        "x": 12.283,
+        "y": 6.79,
+        "w": 0.572,
+        "h": 0.203
+      },
+      "overflow": {
+        "overflow_inches": 0.14
+      }
+    },
+    "shape-006": {
+      "name": "\u77e9\u5f62 27",
+      "text": "\u611f\u77e5\u4e0e\u6570\u636e\u5c42",
+      "bounds_in": {
+        "x": 1.021,
+        "y": 3.312,
+        "w": 2.708,
+        "h": 0.292
+      },
+      "overflow": {
+        "overflow_inches": 0.153
+      }
+    },
+    "shape-010": {
+      "name": "\u77e9\u5f62 51",
+      "text": "\u63a7\u5236\u4e0e\u63a8\u7406\u5c42",
+      "bounds_in": {
+        "x": 4.823,
+        "y": 3.312,
+        "w": 2.708,
+        "h": 0.292
+      },
+      "overflow": {
+        "overflow_inches": 0.153
+      }
+    },
+    "shape-014": {
+      "name": "\u77e9\u5f62 55",
+      "text": "\u5de5\u4e1a\u5e94\u7528\u5c42",
+      "bounds_in": {
+        "x": 8.625,
+        "y": 3.312,
+        "w": 2.708,
+        "h": 0.292
+      },
+      "overflow": {
+        "overflow_inches": 0.153
+      }
+    },
+    "shape-016": {
+      "name": "\u77e9\u5f62 57",
+      "text": "\u5173\u952e\u6280\u672f\u5361\u70b9",
+      "bounds_in": {
+        "x": 0.792,
+        "y": 5.542,
+        "w": 2.708,
+        "h": 0.292
+      },
+      "overflow": {
+        "overflow_inches": 0.14
+      }
+    }
+  },
+  "slide-08": {
+    "shape-002": {
+      "name": "\u6587\u672c\u5360\u4f4d\u7b26 2",
+      "text": "5",
+      "bounds_in": {
+        "x": 12.283,
+        "y": 6.79,
+        "w": 0.572,
+        "h": 0.203
+      },
+      "overflow": {
+        "overflow_inches": 0.14
+      }
+    },
+    "shape-004": {
+      "name": "\u77e9\u5f62 24",
+      "text": "\u4e0e\u5f53\u524d\u4e1a\u52a1\u7684\u5173\u8054",
+      "bounds_in": {
+        "x": 0.792,
+        "y": 2.417,
+        "w": 4.167,
+        "h": 0.292
+      },
+      "overflow": {
+        "overflow_inches": 0.153
+      }
+    },
+    "shape-010": {
+      "name": "\u77e9\u5f62 30",
+      "text": "\u5185\u90e8\u534f\u540c\u4ef7\u503c",
+      "bounds_in": {
+        "x": 7.344,
+        "y": 2.417,
+        "w": 3.646,
+        "h": 0.292
+      },
+      "overflow": {
+        "overflow_inches": 0.153
+      }
+    }
+  },
+  "slide-09": {
+    "shape-002": {
+      "name": "\u6587\u672c\u5360\u4f4d\u7b26 2",
+      "text": "6",
+      "bounds_in": {
+        "x": 12.283,
+        "y": 6.79,
+        "w": 0.572,
+        "h": 0.203
+      },
+      "overflow": {
+        "overflow_inches": 0.14
+      }
+    },
+    "shape-005": {
+      "name": "\u77e9\u5f62 26",
+      "text": "\u8fdb\u5165\u57fa\u7840",
+      "bounds_in": {
+        "x": 0.792,
+        "y": 3.233,
+        "w": 4.167,
+        "h": 0.292
+      },
+      "overflow": {
+        "overflow_inches": 0.153
+      }
+    },
+    "shape-010": {
+      "name": "\u77e9\u5f62 31",
+      "text": "\u5173\u952e\u91cc\u7a0b\u7891",
+      "bounds_in": {
+        "x": 7.344,
+        "y": 3.233,
+        "w": 3.646,
+        "h": 0.292
+      },
+      "overflow": {
+        "overflow_inches": 0.153
+      }
+    }
+  }
+}

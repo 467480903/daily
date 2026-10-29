@@ -1,0 +1,287 @@
+{
+  "input": "/home/wxf/daily/ppt_perference/reasoning_arm_output/\u5e02\u573a\u673a\u4f1a\u8c03\u7814\u62a5\u544a-\u63a8\u7406\u5f0f\u534f\u4f5c\u81c2.pptx",
+  "style_preset": "executive-clinical",
+  "renderer_detected": "pptxgenjs",
+  "summary": {
+    "slide_count": 11,
+    "violation_count": 15,
+    "error_count": 6,
+    "warning_count": 9,
+    "density_score_by_slide": [
+      {
+        "slide_index": 0,
+        "density_score": 0.6558
+      },
+      {
+        "slide_index": 1,
+        "density_score": 0.0607
+      },
+      {
+        "slide_index": 2,
+        "density_score": 0.2061
+      },
+      {
+        "slide_index": 3,
+        "density_score": 0.2169
+      },
+      {
+        "slide_index": 4,
+        "density_score": 0.541
+      },
+      {
+        "slide_index": 5,
+        "density_score": 0.7331
+      },
+      {
+        "slide_index": 6,
+        "density_score": 0.5517
+      },
+      {
+        "slide_index": 7,
+        "density_score": 0.2807
+      },
+      {
+        "slide_index": 8,
+        "density_score": 0.2925
+      },
+      {
+        "slide_index": 9,
+        "density_score": 0.0646
+      },
+      {
+        "slide_index": 10,
+        "density_score": 0.4946
+      }
+    ]
+  },
+  "slides": [
+    {
+      "slide_index": 0,
+      "slide_type": "content",
+      "violations": [],
+      "density_score": 0.6558,
+      "empty_ratio": 0.3442
+    },
+    {
+      "slide_index": 1,
+      "slide_type": "content",
+      "violations": [
+        {
+          "type": "empty_ratio_too_high",
+          "shape_ids": [],
+          "severity": "warning",
+          "delta_inches": 0.3193,
+          "suggested_fix": "Increase purposeful visual structure to reduce dead zones.",
+          "slide_type": "content",
+          "effective_max_empty_ratio": 0.62
+        }
+      ],
+      "density_score": 0.0607,
+      "empty_ratio": 0.9393
+    },
+    {
+      "slide_index": 2,
+      "slide_type": "content",
+      "violations": [
+        {
+          "type": "empty_ratio_too_high",
+          "shape_ids": [],
+          "severity": "warning",
+          "delta_inches": 0.1739,
+          "suggested_fix": "Increase purposeful visual structure to reduce dead zones.",
+          "slide_type": "content",
+          "effective_max_empty_ratio": 0.62
+        }
+      ],
+      "density_score": 0.2061,
+      "empty_ratio": 0.7939
+    },
+    {
+      "slide_index": 3,
+      "slide_type": "content",
+      "violations": [
+        {
+          "type": "empty_ratio_too_high",
+          "shape_ids": [],
+          "severity": "warning",
+          "delta_inches": 0.1631,
+          "suggested_fix": "Increase purposeful visual structure to reduce dead zones.",
+          "slide_type": "content",
+          "effective_max_empty_ratio": 0.62
+        }
+      ],
+      "density_score": 0.2169,
+      "empty_ratio": 0.7831
+    },
+    {
+      "slide_index": 4,
+      "slide_type": "content",
+      "violations": [],
+      "density_score": 0.541,
+      "empty_ratio": 0.459
+    },
+    {
+      "slide_index": 5,
+      "slide_type": "content",
+      "violations": [
+        {
+          "type": "gutter_too_small",
+          "shape_ids": [
+            "shape-10",
+            "shape-12"
+          ],
+          "severity": "error",
+          "delta_inches": 0.1342,
+          "suggested_fix": "Increase horizontal spacing to meet gutter token."
+        },
+        {
+          "type": "gutter_too_small",
+          "shape_ids": [
+            "shape-12",
+            "shape-14"
+          ],
+          "severity": "error",
+          "delta_inches": 0.0717,
+          "suggested_fix": "Increase horizontal spacing to meet gutter token."
+        },
+        {
+          "type": "gutter_too_small",
+          "shape_ids": [
+            "shape-16",
+            "shape-18"
+          ],
+          "severity": "error",
+          "delta_inches": 0.1342,
+          "suggested_fix": "Increase horizontal spacing to meet gutter token."
+        },
+        {
+          "type": "gutter_too_small",
+          "shape_ids": [
+            "shape-18",
+            "shape-20"
+          ],
+          "severity": "error",
+          "delta_inches": 0.0717,
+          "suggested_fix": "Increase horizontal spacing to meet gutter token."
+        },
+        {
+          "type": "gutter_too_small",
+          "shape_ids": [
+            "shape-22",
+            "shape-24"
+          ],
+          "severity": "error",
+          "delta_inches": 0.1342,
+          "suggested_fix": "Increase horizontal spacing to meet gutter token."
+        },
+        {
+          "type": "gutter_too_small",
+          "shape_ids": [
+            "shape-24",
+            "shape-26"
+          ],
+          "severity": "error",
+          "delta_inches": 0.0717,
+          "suggested_fix": "Increase horizontal spacing to meet gutter token."
+        }
+      ],
+      "density_score": 0.7331,
+      "empty_ratio": 0.2669
+    },
+    {
+      "slide_index": 6,
+      "slide_type": "content",
+      "violations": [
+        {
+          "type": "margin_bottom",
+          "shape_ids": [
+            "shape-19"
+          ],
+          "severity": "warning",
+          "delta_inches": 0.4125,
+          "suggested_fix": "Raise card or reduce height to preserve footer breathing room."
+        },
+        {
+          "type": "margin_bottom",
+          "shape_ids": [
+            "shape-23"
+          ],
+          "severity": "warning",
+          "delta_inches": 0.4125,
+          "suggested_fix": "Raise card or reduce height to preserve footer breathing room."
+        },
+        {
+          "type": "column_misalignment",
+          "shape_ids": [
+            "shape-6",
+            "shape-17",
+            "shape-19"
+          ],
+          "severity": "warning",
+          "delta_inches": 0.0833,
+          "suggested_fix": "Align left edges across repeated card columns."
+        }
+      ],
+      "density_score": 0.5517,
+      "empty_ratio": 0.4483
+    },
+    {
+      "slide_index": 7,
+      "slide_type": "content",
+      "violations": [
+        {
+          "type": "empty_ratio_too_high",
+          "shape_ids": [],
+          "severity": "warning",
+          "delta_inches": 0.0993,
+          "suggested_fix": "Increase purposeful visual structure to reduce dead zones.",
+          "slide_type": "content",
+          "effective_max_empty_ratio": 0.62
+        }
+      ],
+      "density_score": 0.2807,
+      "empty_ratio": 0.7193
+    },
+    {
+      "slide_index": 8,
+      "slide_type": "content",
+      "violations": [
+        {
+          "type": "empty_ratio_too_high",
+          "shape_ids": [],
+          "severity": "warning",
+          "delta_inches": 0.0875,
+          "suggested_fix": "Increase purposeful visual structure to reduce dead zones.",
+          "slide_type": "content",
+          "effective_max_empty_ratio": 0.62
+        }
+      ],
+      "density_score": 0.2925,
+      "empty_ratio": 0.7075
+    },
+    {
+      "slide_index": 9,
+      "slide_type": "content",
+      "violations": [
+        {
+          "type": "empty_ratio_too_high",
+          "shape_ids": [],
+          "severity": "warning",
+          "delta_inches": 0.3154,
+          "suggested_fix": "Increase purposeful visual structure to reduce dead zones.",
+          "slide_type": "content",
+          "effective_max_empty_ratio": 0.62
+        }
+      ],
+      "density_score": 0.0646,
+      "empty_ratio": 0.9354
+    },
+    {
+      "slide_index": 10,
+      "slide_type": "content",
+      "violations": [],
+      "density_score": 0.4946,
+      "empty_ratio": 0.5054
+    }
+  ]
+}
