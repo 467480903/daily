@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>工装改造提升落地</title>
+  <style>
+    :root{--blue:#0876b9;--deep:#16364f;--muted:#536571;--line:#c5d9e7;--pale:#f3f7fa;}
+    *{box-sizing:border-box;}
+    body{margin:0;background:#e8eef4;color:var(--blue);font-family:SimSun,"Noto Serif CJK SC",serif;}
+    .slide{width:1600px;height:900px;background:#fff;position:relative;margin:24px auto;overflow:hidden;}
+    .titlebox{position:absolute;left:84px;top:53px;width:1310px;height:78px;}
+    .title{height:78px;line-height:72px;font-size:48px;font-weight:700;letter-spacing:0;color:var(--deep);}
+    .logo{position:absolute;right:84px;top:65px;width:78.5px;height:49.5px;}
+    .logo img{width:100%;height:100%;}
+    .panels{position:absolute;left:84px;right:84px;top:168px;height:664px;display:grid;gap:36px;}
+    .panel{min-width:0;background:#fff;display:flex;flex-direction:column;gap:20px;}
+    .pair{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+    .figure{min-width:0;}
+    .photo{height:330px;border:1px solid var(--line);overflow:hidden;position:relative;background:#f2f5f8;}
+    .photo img{height:100%;width:100%;object-fit:cover;display:block;}
+    .photo img.rotated{position:absolute;width:330px;height:330px;left:50%;top:50%;transform:translate(-50%,-50%) rotate(90deg);object-fit:cover;}
+    .caption{height:50px;border:1px solid var(--line);border-top:0;line-height:48px;text-align:center;font-size:20px;color:var(--muted);background:#f7f9fb;}
+    .figure.after .caption{background:#edf5fa;color:var(--blue);font-weight:700;}
+    .summary{height:264px;border:1px solid var(--line);padding:21px 23px;background:#fbfcfd;display:flex;flex-direction:column;justify-content:center;gap:10px;}
+    .paneltitle{height:54px;flex:none;font-size:32px;font-weight:700;line-height:50px;color:var(--deep);}
+    .summary .lead{font-size:27px;font-weight:700;height:48px;flex:none;line-height:44px;color:var(--blue);}
+    .summary .detail{font-size:23px;height:42px;flex:none;line-height:38px;color:var(--muted);}
+    @media print{
+      @page{size:1600px 900px;margin:0;}
+      body{background:#fff;}
+      .slide{margin:0;break-after:page;page-break-after:always;}
+      .slide:last-child{break-after:auto;page-break-after:auto;}
+    }
+  </style>
+</head>
+<body>
+  <main id="deck"></main>
+  <script>
+    const escapeHtml=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
+    const t=(text,cls)=>`<div class="${cls}" data-ppt="text">${escapeHtml(text)}</div>`;
+    const figure=(f,after)=>`<div class="figure ${after?'after':''}">
+      <div class="photo" data-ppt="image"><img alt="${escapeHtml(f.caption)}" src="${f.src}" class="${f.rotate?'rotated':''}" style="object-position:${f.position||'50% 50%'};object-fit:${f.fit||'cover'}"></div>
+      <div class="caption" data-ppt="box">${t(f.label+'｜'+f.caption,'caption-text')}</div>
+    </div>`;
+    fetch('outline.json').then(r=>r.json()).then(data=>{
+      window.deckOutline=data;
+      document.querySelector('#deck').innerHTML=data.slides.map((s,index)=>`
+        <section class="slide ${s.columns===2?'two':'three'}" id="${s.id}">
+          <header class="titlebox">${t(s.title,'title')}</header>
+          <div class="logo" data-ppt="image"><img alt="敏实标志" src="logo.png"></div>
+          <div class="panels" style="grid-template-columns:repeat(${s.columns},1fr)">
+            ${s.sections.map((c,i)=>`<article class="panel">
+              <div class="pair">${figure(c.before,false)}${figure(c.after,true)}</div>
+              <div class="summary" data-ppt="box">${t(c.title,'paneltitle')}${c.lines.map((line,j)=>t(line,j===0?'lead':'detail')).join('')}</div>
+            </article>`).join('')}
+          </div>
+        </section>`).join('');
+      window.deckReady=true;
+    });
+    window.collectDeckLayout=()=>{
+      const slides=[...document.querySelectorAll('.slide')].map((slide,index)=>{
+        const sb=slide.getBoundingClientRect();
+        const items=[...slide.querySelectorAll('[data-ppt]')].map((el,i)=>{
+          const b=el.getBoundingClientRect(),c=getComputedStyle(el);
+          return {id:`s${index+1}-${i}`,type:el.dataset.ppt,x:b.x-sb.x,y:b.y-sb.y,w:b.width,h:b.height,
+            text:el.dataset.ppt==='text'?el.textContent.trim():null,color:c.color,fontSize:parseFloat(c.fontSize),
+            fontFamily:c.fontFamily,bold:parseInt(c.fontWeight)>=600,align:c.textAlign,
+            lineHeight:parseFloat(c.lineHeight),background:c.backgroundColor,
+            borderColor:c.borderLeftColor,borderWidth:parseFloat(c.borderLeftWidth),
+            overflowX:el.scrollWidth>el.clientWidth+1,overflowY:el.scrollHeight>el.clientHeight+1,
+            image:el.dataset.ppt==='image'?el.querySelector('img').getAttribute('src'):null};
+        });
+        return {id:slide.id,width:sb.width,height:sb.height,items};
+      });
+      return {title:document.title,width:1600,height:900,slides};
+    };
+  </script>
+</body>
+</html>

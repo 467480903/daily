@@ -1,0 +1,55 @@
+{
+  "title": "工装改造提升落地",
+  "canvas": {"width": 1600, "height": 900},
+  "slides": [
+    {
+      "id": "slide-1",
+      "title": "工装改造提升落地",
+      "columns": 3,
+      "sections": [
+        {
+          "title": "定制末端夹爪",
+          "before": {"src": "image/PPT_content/1793785007382.png", "label": "改造前", "caption": "双弯指", "position": "50% 42%"},
+          "after": {"src": "image/PPT_content/1793785037008.png", "label": "改造后", "caption": "单弯指", "rotate": 90},
+          "lines": ["优先适配现场", "提高数采效率", "兼顾训练推理"],
+          "takeaway": "夹爪适配场景"
+        },
+        {
+          "title": "扩大夹具容差",
+          "before": {"src": "image/PPT_content/1793784532296.png", "label": "改造前", "caption": "毫米级", "position": "48% 65%"},
+          "after": {"src": "image/PPT_content/1793784958122.png", "label": "改造后", "caption": "厘米级", "position": "55% 52%"},
+          "lines": ["先容错再定位", "示例±1→±40mm", "增加二次精定位"],
+          "takeaway": "放宽落位约束"
+        },
+        {
+          "title": "增强工装色差",
+          "before": {"src": "image/PPT_content/1793784304716.png", "label": "改造前", "caption": "银色", "position": "40% 50%"},
+          "after": {"src": "image/PPT_content/1793784458337.png", "label": "改造后", "caption": "贴黄带", "position": "45% 48%"},
+          "lines": ["工装贴黄色胶带", "区分银色铝条", "强化视觉辨识"],
+          "takeaway": "放大视觉差异"
+        }
+      ]
+    },
+    {
+      "id": "slide-2",
+      "title": "光源与导向优化",
+      "columns": 2,
+      "sections": [
+        {
+          "title": "可调红色条光",
+          "before": {"src": "assets/light_before.png", "label": "原方案", "caption": "白光反光", "position": "50% 40%"},
+          "after": {"src": "assets/light_after.png", "label": "拟改进", "caption": "红光抑反光", "position": "50% 40%"},
+          "lines": ["拟安装可调条光", "控制光色环境", "目标：抑制反光"],
+          "takeaway": "让轮廓更清晰"
+        },
+        {
+          "title": "加宽机械导向槽",
+          "before": {"src": "assets/guide_short_v2.png", "label": "原方案", "caption": "引导面短", "fit": "contain"},
+          "after": {"src": "assets/guide_wide_v2.png", "label": "拟改进", "caption": "引导面加长", "fit": "contain"},
+          "lines": ["拟加宽导向开口", "延长两侧引导面", "增强机械导向性"],
+          "takeaway": "让落位更顺畅"
+        }
+      ]
+    }
+  ]
+}
