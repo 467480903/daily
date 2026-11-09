@@ -1,0 +1,1344 @@
+[
+  [
+    {
+      "type": "text",
+      "text": "跨工位泛化不足",
+      "x": 55,
+      "y": 27.799999999999997,
+      "w": 1300,
+      "h": 74.4,
+      "size": 48,
+      "color": "17324D",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "image",
+      "file": "/home/wxf/daily/logo.png",
+      "x": 1466,
+      "y": 36,
+      "w": 76.5,
+      "h": 47.5
+    },
+    {
+      "type": "rect",
+      "x": 50,
+      "y": 145,
+      "w": 960,
+      "h": 695,
+      "fill": "FFFFFF",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "image",
+      "file": "/home/wxf/daily/PPT_110917/image/PPT_content2/1794219748728.png",
+      "x": 51,
+      "y": 146,
+      "w": 958,
+      "h": 693
+    },
+    {
+      "type": "rect",
+      "x": 1040,
+      "y": 145,
+      "w": 510,
+      "h": 328,
+      "fill": "F2F7FB",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "固定工位",
+      "x": 1070,
+      "y": 164.2,
+      "w": 450,
+      "h": 49.6,
+      "size": 32,
+      "color": "2365A0",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "约90%",
+      "x": 1070,
+      "y": 224.89999999999998,
+      "w": 450,
+      "h": 130.20000000000002,
+      "size": 84,
+      "color": "2365A0",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "手动摆料",
+      "x": 1070,
+      "y": 371.3,
+      "w": 450,
+      "h": 43.4,
+      "size": 28,
+      "color": "17324D",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "固定采集500条",
+      "x": 1070,
+      "y": 418.625,
+      "w": 450,
+      "h": 38.75,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "rect",
+      "x": 1040,
+      "y": 503,
+      "w": 510,
+      "h": 337,
+      "fill": "FCF2EB",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "移动后推理",
+      "x": 1070,
+      "y": 522.2,
+      "w": 450,
+      "h": 49.6,
+      "size": 32,
+      "color": "A76734",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "约60%",
+      "x": 1070,
+      "y": 582.9,
+      "w": 450,
+      "h": 130.20000000000002,
+      "size": 84,
+      "color": "A76734",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "前站抓料",
+      "x": 1070,
+      "y": 728.3,
+      "w": 450,
+      "h": 43.4,
+      "size": 28,
+      "color": "17324D",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "移动至推理工位",
+      "x": 1070,
+      "y": 777.625,
+      "w": 450,
+      "h": 38.75,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    }
+  ],
+  [
+    {
+      "type": "text",
+      "text": "抓位与停靠偏差",
+      "x": 55,
+      "y": 27.799999999999997,
+      "w": 1300,
+      "h": 74.4,
+      "size": 48,
+      "color": "17324D",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "image",
+      "file": "/home/wxf/daily/logo.png",
+      "x": 1466,
+      "y": 36,
+      "w": 76.5,
+      "h": 47.5
+    },
+    {
+      "type": "rect",
+      "x": 50,
+      "y": 145,
+      "w": 1000,
+      "h": 695,
+      "fill": "FFFFFF",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "rect",
+      "x": 70,
+      "y": 170,
+      "w": 560,
+      "h": 420,
+      "fill": "FFFFFF",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "image",
+      "file": "/home/wxf/daily/PPT_110917/image/PPT_content2/1794219748728.png",
+      "x": 71,
+      "y": 171,
+      "w": 558,
+      "h": 418
+    },
+    {
+      "type": "text",
+      "text": "抓取位置不一致",
+      "x": 90,
+      "y": 620.975,
+      "w": 520,
+      "h": 48.050000000000004,
+      "size": 31,
+      "color": "2365A0",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "抓位变化",
+      "x": 90,
+      "y": 686.075,
+      "w": 500,
+      "h": 41.85,
+      "size": 27,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "rect",
+      "x": 650,
+      "y": 170,
+      "w": 380,
+      "h": 560,
+      "fill": "FFFFFF",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "image",
+      "file": "/home/wxf/daily/PPT_110917/image/PPT_content2/1794219775602.png",
+      "x": 651,
+      "y": 171,
+      "w": 378,
+      "h": 558
+    },
+    {
+      "type": "text",
+      "text": "底盘停靠现场",
+      "x": 660,
+      "y": 761,
+      "w": 360,
+      "h": 45,
+      "size": 29,
+      "color": "2365A0",
+      "bold": true,
+      "align": "center"
+    },
+    {
+      "type": "rect",
+      "x": 1080,
+      "y": 145,
+      "w": 470,
+      "h": 205,
+      "fill": "F2F7FB",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "抓位偏差",
+      "x": 1108,
+      "y": 162.975,
+      "w": 414,
+      "h": 48.050000000000004,
+      "size": 31,
+      "color": "2365A0",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "铝条抓位不一致",
+      "x": 1108,
+      "y": 225.625,
+      "w": 414,
+      "h": 38.75,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "rect",
+      "x": 1080,
+      "y": 380,
+      "w": 470,
+      "h": 205,
+      "fill": "FCF2EB",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "停靠偏差",
+      "x": 1108,
+      "y": 397.975,
+      "w": 414,
+      "h": 48.050000000000004,
+      "size": 31,
+      "color": "A76734",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "移动精度待量化",
+      "x": 1108,
+      "y": 460.625,
+      "w": 414,
+      "h": 38.75,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "rect",
+      "x": 1080,
+      "y": 615,
+      "w": 470,
+      "h": 225,
+      "fill": "EAF5F1",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "验证边界",
+      "x": 1108,
+      "y": 632.975,
+      "w": 414,
+      "h": 48.050000000000004,
+      "size": 31,
+      "color": "187D80",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "底盘精度未确定",
+      "x": 1108,
+      "y": 695.625,
+      "w": 414,
+      "h": 38.75,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "单独调整增益有限",
+      "x": 1108,
+      "y": 738.625,
+      "w": 414,
+      "h": 38.75,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    }
+  ],
+  [
+    {
+      "type": "text",
+      "text": "光照差异影响输入",
+      "x": 55,
+      "y": 27.799999999999997,
+      "w": 1300,
+      "h": 74.4,
+      "size": 48,
+      "color": "17324D",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "image",
+      "file": "/home/wxf/daily/logo.png",
+      "x": 1466,
+      "y": 36,
+      "w": 76.5,
+      "h": 47.5
+    },
+    {
+      "type": "rect",
+      "x": 50,
+      "y": 145,
+      "w": 960,
+      "h": 695,
+      "fill": "FFFFFF",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "rect",
+      "x": 70,
+      "y": 160,
+      "w": 440,
+      "h": 280,
+      "fill": "FFFFFF",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "image",
+      "file": "/home/wxf/daily/PPT_110917/image/PPT_content2/1794219797185.png",
+      "x": 71,
+      "y": 161,
+      "w": 438,
+      "h": 278
+    },
+    {
+      "type": "text",
+      "text": "手部｜较暗",
+      "x": 70,
+      "y": 447.85,
+      "w": 440,
+      "h": 40.300000000000004,
+      "size": 26,
+      "color": "2365A0",
+      "bold": true,
+      "align": "center"
+    },
+    {
+      "type": "rect",
+      "x": 540,
+      "y": 160,
+      "w": 440,
+      "h": 280,
+      "fill": "FFFFFF",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "image",
+      "file": "/home/wxf/daily/PPT_110917/image/PPT_content2/1794219801025.png",
+      "x": 541,
+      "y": 161,
+      "w": 438,
+      "h": 278
+    },
+    {
+      "type": "text",
+      "text": "手部｜较亮",
+      "x": 540,
+      "y": 447.85,
+      "w": 440,
+      "h": 40.300000000000004,
+      "size": 26,
+      "color": "2365A0",
+      "bold": true,
+      "align": "center"
+    },
+    {
+      "type": "rect",
+      "x": 70,
+      "y": 505,
+      "w": 440,
+      "h": 280,
+      "fill": "FFFFFF",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "image",
+      "file": "/home/wxf/daily/PPT_110917/image/PPT_content2/1794219806466.png",
+      "x": 71,
+      "y": 506,
+      "w": 438,
+      "h": 278
+    },
+    {
+      "type": "text",
+      "text": "头部｜画面一",
+      "x": 70,
+      "y": 792.85,
+      "w": 440,
+      "h": 40.300000000000004,
+      "size": 26,
+      "color": "2365A0",
+      "bold": true,
+      "align": "center"
+    },
+    {
+      "type": "rect",
+      "x": 540,
+      "y": 505,
+      "w": 440,
+      "h": 280,
+      "fill": "FFFFFF",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "image",
+      "file": "/home/wxf/daily/PPT_110917/image/PPT_content2/1794219810121.png",
+      "x": 541,
+      "y": 506,
+      "w": 438,
+      "h": 278
+    },
+    {
+      "type": "text",
+      "text": "头部｜画面二",
+      "x": 540,
+      "y": 792.85,
+      "w": 440,
+      "h": 40.300000000000004,
+      "size": 26,
+      "color": "2365A0",
+      "bold": true,
+      "align": "center"
+    },
+    {
+      "type": "rect",
+      "x": 1040,
+      "y": 145,
+      "w": 510,
+      "h": 205,
+      "fill": "FCF2EB",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "手部差异更明显",
+      "x": 1068,
+      "y": 162.975,
+      "w": 454,
+      "h": 48.050000000000004,
+      "size": 31,
+      "color": "A76734",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "明暗变化较大",
+      "x": 1068,
+      "y": 225.625,
+      "w": 454,
+      "h": 38.75,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "rect",
+      "x": 1040,
+      "y": 380,
+      "w": 510,
+      "h": 205,
+      "fill": "F2F7FB",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "头部差异较小",
+      "x": 1068,
+      "y": 397.975,
+      "w": 454,
+      "h": 48.050000000000004,
+      "size": 31,
+      "color": "2365A0",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "保留原始画面",
+      "x": 1068,
+      "y": 460.625,
+      "w": 454,
+      "h": 38.75,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "rect",
+      "x": 1040,
+      "y": 615,
+      "w": 510,
+      "h": 225,
+      "fill": "EAF5F1",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "采集条件收敛",
+      "x": 1068,
+      "y": 632.975,
+      "w": 454,
+      "h": 48.050000000000004,
+      "size": 31,
+      "color": "187D80",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "优先明亮场景",
+      "x": 1068,
+      "y": 695.625,
+      "w": 454,
+      "h": 38.75,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "夜间不采集",
+      "x": 1068,
+      "y": 738.625,
+      "w": 454,
+      "h": 38.75,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    }
+  ],
+  [
+    {
+      "type": "text",
+      "text": "采集与纠偏方案",
+      "x": 55,
+      "y": 27.799999999999997,
+      "w": 1300,
+      "h": 74.4,
+      "size": 48,
+      "color": "17324D",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "image",
+      "file": "/home/wxf/daily/logo.png",
+      "x": 1466,
+      "y": 36,
+      "w": 76.5,
+      "h": 47.5
+    },
+    {
+      "type": "rect",
+      "x": 50,
+      "y": 145,
+      "w": 880,
+      "h": 710,
+      "fill": "FFFFFF",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "rect",
+      "x": 50,
+      "y": 145,
+      "w": 880,
+      "h": 660,
+      "fill": "FFFFFF",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "image",
+      "file": "/home/wxf/daily/PPT_110917/image/PPT_content2/1794219875565.png",
+      "x": 51,
+      "y": 146,
+      "w": 878,
+      "h": 658
+    },
+    {
+      "type": "text",
+      "text": "二维码辅助纠偏",
+      "x": 70,
+      "y": 807.3,
+      "w": 840,
+      "h": 43.4,
+      "size": 28,
+      "color": "2365A0",
+      "bold": true,
+      "align": "center"
+    },
+    {
+      "type": "rect",
+      "x": 960,
+      "y": 145,
+      "w": 590,
+      "h": 150,
+      "fill": "F2F7FB",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "抓位纠偏",
+      "x": 988,
+      "y": 162.975,
+      "w": 534,
+      "h": 48.050000000000004,
+      "size": 31,
+      "color": "2365A0",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "二维码定位",
+      "x": 988,
+      "y": 225.625,
+      "w": 534,
+      "h": 38.75,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "rect",
+      "x": 960,
+      "y": 315,
+      "w": 590,
+      "h": 150,
+      "fill": "F2F7FB",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "底盘变化",
+      "x": 988,
+      "y": 332.975,
+      "w": 534,
+      "h": 48.050000000000004,
+      "size": 31,
+      "color": "2365A0",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "每100条换位",
+      "x": 988,
+      "y": 395.625,
+      "w": 534,
+      "h": 38.75,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "rect",
+      "x": 960,
+      "y": 485,
+      "w": 590,
+      "h": 170,
+      "fill": "F2F7FB",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "日间采集",
+      "x": 988,
+      "y": 498.975,
+      "w": 534,
+      "h": 48.050000000000004,
+      "size": 31,
+      "color": "2365A0",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "上午300条",
+      "x": 988,
+      "y": 558.85,
+      "w": 245,
+      "h": 40.300000000000004,
+      "size": 26,
+      "color": "17324D",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "下午300条",
+      "x": 1260,
+      "y": 558.85,
+      "w": 245,
+      "h": 40.300000000000004,
+      "size": 26,
+      "color": "17324D",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "夜间不采集",
+      "x": 988,
+      "y": 607.4,
+      "w": 510,
+      "h": 37.2,
+      "size": 24,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "rect",
+      "x": 960,
+      "y": 675,
+      "w": 590,
+      "h": 165,
+      "fill": "EAF5F1",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "加入纠偏",
+      "x": 988,
+      "y": 692.975,
+      "w": 534,
+      "h": 48.050000000000004,
+      "size": 31,
+      "color": "187D80",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "500条含20–30条",
+      "x": 988,
+      "y": 755.625,
+      "w": 534,
+      "h": 38.75,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    }
+  ],
+  [
+    {
+      "type": "text",
+      "text": "验证结果与局限",
+      "x": 55,
+      "y": 27.799999999999997,
+      "w": 1300,
+      "h": 74.4,
+      "size": 48,
+      "color": "17324D",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "image",
+      "file": "/home/wxf/daily/logo.png",
+      "x": 1466,
+      "y": 36,
+      "w": 76.5,
+      "h": 47.5
+    },
+    {
+      "type": "rect",
+      "x": 50,
+      "y": 145,
+      "w": 920,
+      "h": 695,
+      "fill": "FFFFFF",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "各条件约成功率",
+      "x": 80,
+      "y": 166.425,
+      "w": 850,
+      "h": 51.15,
+      "size": 33,
+      "color": "17324D",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "chart",
+      "x": 75,
+      "y": 255,
+      "w": 870,
+      "h": 455,
+      "labels": [
+        "移动后基线",
+        "抓位固定",
+        "光照＋工装",
+        "纠偏方案"
+      ],
+      "values": [
+        60,
+        70,
+        80,
+        75
+      ]
+    },
+    {
+      "type": "text",
+      "text": "不同条件，非同组",
+      "x": 85,
+      "y": 754,
+      "w": 830,
+      "h": 44,
+      "size": 28,
+      "color": "596F83",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "type": "rect",
+      "x": 1000,
+      "y": 145,
+      "w": 550,
+      "h": 413,
+      "fill": "FFFFFF",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "image",
+      "file": "/home/wxf/daily/PPT_110917/image/PPT_content2/1794219916975.png",
+      "x": 1001,
+      "y": 146,
+      "w": 548,
+      "h": 411
+    },
+    {
+      "type": "rect",
+      "x": 1000,
+      "y": 585,
+      "w": 550,
+      "h": 255,
+      "fill": "EAF5F1",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "抓位趋于一致",
+      "x": 1030,
+      "y": 602.2,
+      "w": 490,
+      "h": 49.6,
+      "size": 32,
+      "color": "187D80",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "仅为肉眼观察",
+      "x": 1030,
+      "y": 669.075,
+      "w": 490,
+      "h": 41.85,
+      "size": 27,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "底盘增益有限",
+      "x": 1030,
+      "y": 725.075,
+      "w": 490,
+      "h": 41.85,
+      "size": 27,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "纠偏仍不稳定",
+      "x": 1030,
+      "y": 779.85,
+      "w": 490,
+      "h": 40.300000000000004,
+      "size": 26,
+      "color": "A76734",
+      "bold": true,
+      "align": "left"
+    }
+  ],
+  [
+    {
+      "type": "text",
+      "text": "纠偏学习技术请教",
+      "x": 55,
+      "y": 27.799999999999997,
+      "w": 1300,
+      "h": 74.4,
+      "size": 48,
+      "color": "17324D",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "image",
+      "file": "/home/wxf/daily/logo.png",
+      "x": 1466,
+      "y": 36,
+      "w": 76.5,
+      "h": 47.5
+    },
+    {
+      "type": "rect",
+      "x": 50,
+      "y": 145,
+      "w": 1500,
+      "h": 300,
+      "fill": "FFFFFF",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "纠偏效果仍不稳定",
+      "x": 80,
+      "y": 163.425,
+      "w": 850,
+      "h": 51.15,
+      "size": 33,
+      "color": "17324D",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "原数据缺少纠偏",
+      "x": 1120,
+      "y": 172,
+      "w": 390,
+      "h": 40,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "rect",
+      "x": 90,
+      "y": 247,
+      "w": 300,
+      "h": 70,
+      "fill": "F2F7FB",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "放置偏差",
+      "x": 105,
+      "y": 257,
+      "w": 270,
+      "h": 50,
+      "size": 29,
+      "color": "2365A0",
+      "bold": true,
+      "align": "center"
+    },
+    {
+      "type": "rect",
+      "x": 440,
+      "y": 247,
+      "w": 300,
+      "h": 70,
+      "fill": "F2F7FB",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "模型尝试纠偏",
+      "x": 455,
+      "y": 257,
+      "w": 270,
+      "h": 50,
+      "size": 29,
+      "color": "2365A0",
+      "bold": true,
+      "align": "center"
+    },
+    {
+      "type": "rect",
+      "x": 930,
+      "y": 247,
+      "w": 500,
+      "h": 70,
+      "fill": "EAF5F1",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "自主纠正",
+      "x": 945,
+      "y": 257,
+      "w": 470,
+      "h": 50,
+      "size": 29,
+      "color": "187D80",
+      "bold": true,
+      "align": "center"
+    },
+    {
+      "type": "rect",
+      "x": 930,
+      "y": 340,
+      "w": 500,
+      "h": 70,
+      "fill": "FCF2EB",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "持续纠偏不松手",
+      "x": 945,
+      "y": 350,
+      "w": 470,
+      "h": 50,
+      "size": 29,
+      "color": "A76734",
+      "bold": true,
+      "align": "center"
+    },
+    {
+      "type": "line",
+      "x1": 398,
+      "y1": 282,
+      "x2": 430,
+      "y2": 282,
+      "color": "2365A0",
+      "arrow": true
+    },
+    {
+      "type": "line",
+      "x1": 740,
+      "y1": 282,
+      "x2": 845,
+      "y2": 282,
+      "color": "2365A0",
+      "arrow": false
+    },
+    {
+      "type": "line",
+      "x1": 845,
+      "y1": 282,
+      "x2": 920,
+      "y2": 282,
+      "color": "187D80",
+      "arrow": true
+    },
+    {
+      "type": "line",
+      "x1": 845,
+      "y1": 282,
+      "x2": 845,
+      "y2": 375,
+      "color": "2365A0",
+      "arrow": false
+    },
+    {
+      "type": "line",
+      "x1": 845,
+      "y1": 375,
+      "x2": 920,
+      "y2": 375,
+      "color": "A76734",
+      "arrow": true
+    },
+    {
+      "type": "rect",
+      "x": 50,
+      "y": 485,
+      "w": 480,
+      "h": 355,
+      "fill": "F2F7FB",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "如何处理？",
+      "x": 78,
+      "y": 510,
+      "w": 424,
+      "h": 60,
+      "size": 38,
+      "color": "2365A0",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "何时介入纠偏",
+      "x": 78,
+      "y": 603.25,
+      "w": 424,
+      "h": 46.5,
+      "size": 30,
+      "color": "17324D",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "哪些片段保留",
+      "x": 78,
+      "y": 668.25,
+      "w": 424,
+      "h": 46.5,
+      "size": 30,
+      "color": "17324D",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "DAgger交流议题",
+      "x": 78,
+      "y": 764,
+      "w": 424,
+      "h": 42,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "rect",
+      "x": 560,
+      "y": 485,
+      "w": 480,
+      "h": 355,
+      "fill": "F2F7FB",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "如何标注？",
+      "x": 588,
+      "y": 510,
+      "w": 424,
+      "h": 60,
+      "size": 38,
+      "color": "2365A0",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "纠偏动作标签",
+      "x": 588,
+      "y": 603.25,
+      "w": 424,
+      "h": 46.5,
+      "size": 30,
+      "color": "17324D",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "成功与松手信号",
+      "x": 588,
+      "y": 668.25,
+      "w": 424,
+      "h": 46.5,
+      "size": 30,
+      "color": "17324D",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "DAgger交流议题",
+      "x": 588,
+      "y": 764,
+      "w": 424,
+      "h": 42,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "rect",
+      "x": 1070,
+      "y": 485,
+      "w": 480,
+      "h": 355,
+      "fill": "F2F7FB",
+      "stroke": "BCD4EB"
+    },
+    {
+      "type": "text",
+      "text": "如何训练？",
+      "x": 1098,
+      "y": 510,
+      "w": 424,
+      "h": 60,
+      "size": 38,
+      "color": "2365A0",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "数据如何混合",
+      "x": 1098,
+      "y": 603.25,
+      "w": 424,
+      "h": 46.5,
+      "size": 30,
+      "color": "17324D",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "如何学会退出",
+      "x": 1098,
+      "y": 668.25,
+      "w": 424,
+      "h": 46.5,
+      "size": 30,
+      "color": "17324D",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "text": "DAgger交流议题",
+      "x": 1098,
+      "y": 764,
+      "w": 424,
+      "h": 42,
+      "size": 25,
+      "color": "596F83",
+      "bold": false,
+      "align": "left"
+    }
+  ]
+]

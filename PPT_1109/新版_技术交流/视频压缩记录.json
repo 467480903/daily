@@ -1,0 +1,26 @@
+[
+  {
+    "source": "DEMO1.mp4",
+    "output": "DEMO1_压缩.mp4",
+    "duration_seconds": 33.167,
+    "bytes": 917366,
+    "video_kbps": 188,
+    "audio_kbps": 24
+  },
+  {
+    "source": "DEMO2.mp4",
+    "output": "DEMO2_压缩.mp4",
+    "duration_seconds": 41.773,
+    "bytes": 921158,
+    "video_kbps": 144,
+    "audio_kbps": 24
+  },
+  {
+    "source": "DEMO3.mp4",
+    "output": "DEMO3_压缩.mp4",
+    "duration_seconds": 35.266,
+    "bytes": 921830,
+    "video_kbps": 175,
+    "audio_kbps": 24
+  }
+]
